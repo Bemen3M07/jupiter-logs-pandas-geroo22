@@ -88,8 +88,26 @@ Reportlab: Permet generar documents PDF amb text, gràfiques, taules i altres el
 
 -2.Caldrà posar captures de les proves que heu fet i argumentar quines eines i llibreries utilitzareu finalment.
 A projecte hem començat a tocar aquestes eines on amb creem un DataFrame amb Pandas, generem una gràfica bàsica amb matplotlib dins de Jupyter Notebook, i després guardar-la en un PDF amb reportlab.
-Et deixo al rar l'activitat de projecte on ho vem tocar.
+Et deixo al rar l'activitat de projecte on ho vem tocar. Anomenat Ex3P2
 
 
+Exercici 7
+-Un informe de la part de logging amb el codi que s’ha utilitzat i els exemples d’utilització i resultats.
+
+Logging permet el seguiment del comportament del sistema, documentar esdeveniments i detectar problemes durant l'execució del programa.
+En aquest projecte, s'ha utilitzat la llibreria de logging de Python per monitoritzar el procés de càrrega de dades i anàlisi.
+
+Explicació del exemple a ExercicisPart2:
+La funció logging.basicConfig() configura el format del missatge i el nivell del logging (INFO en aquest cas).
+logging.info() s'ha utilitzat per registrar èxits (per exemple, la correcta càrrega del CSV).
+logging.warning() per registrar possibles problemes que no bloquegen el programa (per exemple, dades nul·les).
+logging.error() per registrar errors que necessiten una acció immediata.
+
+
+-Un informe de la part del tractament de dades, que s’expliqui cada part que s’ha
+utilitzat així com les gràfiques que es mostren.
+
+L'objectiu principal era analitzar les notes dels alumnes en diferents mòduls i obtenir resultats significatius sobre el rendiment general.
+Les dades es van bolcar des d'un fitxer CSV i es van analitzar utilitzant Pandas.
 
 
