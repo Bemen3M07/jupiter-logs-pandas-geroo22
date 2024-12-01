@@ -66,3 +66,30 @@ Cerca llibreries de logs en altres llenguatjes (al menys 2, i identifica cóm re
 -Mètode per fer log: logger.info("Missatge d'informació");
 -Tipus de manejadors (pantalla, fitxer...) Identificar els seus noms a l'API: Console Transport, File Transport
 -Opcions de format: Winston utilitza format.combine() per definir formats amb opcions com timestamp() i printf().
+
+
+
+
+Ex 3
+Mitjançant les eines proposades a continuació, voldríem elaborar una petita aplicació que permetés a un treballador de forma senzilla introduir mitjançant un fitxer json, txt csv o similar introduir unes dades que escollim i li elaborem una sèrie de gràfiques.
+
+Abans d’això, caldrà informar-se sobre les següents eines, alguna de les quals potser ja coneixeu.
+Pandas
+Jupyter Notebook
+reportlab
+La idea d'aquest punt és detallar,
+
+-1.La funcionalitat de cada una de les eines presentades.
+Pandas: Permet llegir dades de diferents tipus de fitxers, com ara CSV, JSON, Excel, entre d'altres, convertint-los fàcilment en DataFrames per a la seva anàlisi.
+
+Jupyter: Permet executar codi Python i veure els resultats immediatament. A més, permet afegir comentaris i anotacions, la qual cosa fa que el procés sigui molt visual i permet crear i visualitzar gràfiques.
+
+Reportlab: Permet generar documents PDF amb text, gràfiques, taules i altres elements de formatació.
+
+-2.Caldrà posar captures de les proves que heu fet i argumentar quines eines i llibreries utilitzareu finalment.
+A projecte hem començat a tocar aquestes eines on amb creem un DataFrame amb Pandas, generem una gràfica bàsica amb matplotlib dins de Jupyter Notebook, i després guardar-la en un PDF amb reportlab.
+Et deixo al rar l'activitat de projecte on ho vem tocar.
+
+
+
+
